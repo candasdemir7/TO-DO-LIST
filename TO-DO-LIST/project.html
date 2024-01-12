@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="all.min.css">
+  <script src="project.js"></script>
+</head>
+
+<body>
+
+
+  <!-- The Modal -->
+  <div id="new-list-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-title">
+        <h3 style="text-align: center">
+          New Task Name
+        </h3>
+      </div>
+      <div class="newList">
+        <input type="text" id="new-list-input" />
+      </div>
+      <div class="btn">
+        <button  class="create">
+          Create
+        </button>
+        <button  class="cancel">
+          Cancel
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="lists-container">
+    <div class="left-panel">
+      <div class="firstPerson">
+      
+        <a href="./project.html"><img src="./images/can.jpg"></a>
+        <div class="personfirst">
+          <span style="font-weight: bold; font-size: 24px;">Mustafacan Daşdemir</span>
+          <span class="mail" style="color: rgb(152, 154, 156); font-weight: semibold;">mustafacan@ug.bilkent.edu.tr</span>
+        </div>
+      </div>
+      <ul id="left-list">
+        <li class="project-members" style="color: rgb(48, 48, 48);" >&#9734&nbsp;&nbsp; Members</li>
+        <hr/>
+      </ul>
+      <button id="new-list-button">
+         <span class="plus">+</span> <span style="color: rgb(181, 181, 181); font-size: 24px;">New List</span> 
+      </button>
+
+    </div>
+
+    <div class="right-panel">
+      <div class="projectmembers">
+        <p id="star2">&#9734</p>
+        <p>Members</p>
+      </div>
+      <div id="students">
+        <div class="person">
+          <img src="images/can.jpg">
+          <div>
+            <span>Mustafacan Daşdemir</span>
+          
+          </div>
+        </div>
+        <div class="person">
+          <img src="images/ceren.jpeg">
+          <div>
+            <span>Ceren Koçak</span>
+         
+          </div>
+        </div>
+
+        <div class="person">
+          <img src="./images/fettah.jpeg">
+          <div>
+            <span>Fettah Elçik</span>
+          </div>
+        </div>
+        <div class="person">
+          <img src="./images/sude.jpeg">
+          <div>
+            <span>Sude Ayaz</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
